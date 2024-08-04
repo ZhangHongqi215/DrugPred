@@ -24,30 +24,30 @@ pip install -r requirements.txt
 
 ## Usage
 
-The main code for the DrugPred model is contained in the `DrugPred.ipynb` notebook. Here is a step-by-step guide to using the notebook:
+The main code for the DrugPred model is contained in the `DrugPred.ipynb` notebook. Here is a step-by-step guide to using the DrugPred.ipynb:
 
 ### Step 1: Load the Data
 
-Load the dataset containing protein sequences and their labels (drug target or not). The dataset should be formatted as described in the notebook.
+Load the dataset containing protein sequences and their labels (drug target or not). The dataset should be formatted as described in the DrugPred.ipynb.
 
 ### Step 2: Feature Extraction
 
-Run the cells responsible for extracting features from the protein sequences using ESM2 and AAC methods. The notebook includes detailed comments explaining each step.
+Run the cells responsible for extracting features from the protein sequences using ESM2 and AAC methods. The DrugPred.ipynb includes detailed comments explaining each step.
 
 
 ### Step 3: Model Training
 
-Train the ensemble learning model using the extracted features. The notebook demonstrates how to train individual models (SVM, NN, CatBoost, XGBoost) and then combine their predictions using an SVM-based voting mechanism.
+Train the ensemble learning model using the extracted features. The DrugPred.ipynb demonstrates how to train individual models (SVM, NN, CatBoost, XGBoost) and then combine their predictions using an SVM-based voting mechanism.
 
 
 ### Step 4: Model Evaluation
 
-Evaluate the performance of the model using various metrics such as accuracy, precision, recall, F1 score, and MCC. The notebook provides code for generating ROC and PRC curves as well.
+Evaluate the performance of the model using various metrics such as accuracy, precision, recall, F1 score, and MCC. The DrugPred.ipynb provides code for generating ROC and PRC curves as well.
 
 
 ### Step 5: Model Interpretability
 
-Use t-SNE and SHAP to visualize and interpret the model's predictions. The notebook includes examples of how to apply these techniques.
+Use t-SNE and SHAP to visualize and interpret the model's predictions. The DrugPred.ipynb includes examples of how to apply these techniques.
 
 
 ## Acknowledgements

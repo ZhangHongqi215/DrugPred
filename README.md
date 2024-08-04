@@ -50,7 +50,3 @@ Evaluate the performance of the model using various metrics such as accuracy, pr
 Use t-SNE and SHAP to visualize and interpret the model's predictions. The DrugPred.ipynb includes examples of how to apply these techniques.
 
 
-## Acknowledgements
-
-This work was supported by the National Natural Science Foundation of China and the Sichuan Province Postdoctoral Research Project Special Support Foundation.
-
